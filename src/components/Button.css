@@ -1,0 +1,45 @@
+.calc-button {
+  min-height: 3rem;
+  min-width: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.calc-button:active {
+  transform: scale(0.97);
+}
+
+.calc-button--digit {
+  background: #3a3a3c;
+  color: #fff;
+}
+
+.calc-button--digit:hover {
+  background: #4a4a4e;
+}
+
+.calc-button--operator {
+  background: #ff9f0a;
+  color: #fff;
+}
+
+.calc-button--operator:hover {
+  background: #ffb340;
+}
+
+.calc-button--action {
+  background: #a5a5a7;
+  color: #1c1c1e;
+}
+
+.calc-button--action:hover {
+  background: #d1d1d6;
+}
+
+.calc-button--wide {
+  grid-column: span 2;
+}

@@ -1,0 +1,14 @@
+.calc-display {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: clamp(2rem, 8vw, 3rem);
+  font-weight: 300;
+  text-align: right;
+  color: #fff;
+  background: #1c1c1e;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
